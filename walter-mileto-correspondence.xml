@@ -197,7 +197,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <body>
 <div type="edition" xml:lang="la">
 <p>
-<pb source="#P" n="240v"/><cb source="#P" n="a"/><pb source="#L" n="57r"/><cb source="#P" n="b"/>
+<pb source="#P" n="240v"/><cb source="#P" n="a"/><pb source="#L" n="57r"/><cb source="#L" n="b"/>
 <lb source="#P"/><app><lem wit="#P">Venerabili canonico <name ref="https://wikidata.org/wiki/Q5121859">cyrencestr’</name> et amico karissimo et fratri in
 <lb source="#P"/><name ref="https://wikidata.org/wiki/Q302">cristo</name> magistro <name>waltero <name ref="https://wikidata.org/wiki/Q54720">melidie</name></name></lem><rdg wit="#L">Venerabili fratri in <name ref="https://wikidata.org/wiki/Q302">cristo</name> et amico karissimo domino domino canonico <name ref="https://wikidata.org/wiki/Q5121859">Cyrenc’</name></rdg></app> frater <name>S.</name> dictus prior <name ref="https://wikidata.org/wiki/Q550064">malmesbir’</name>.
 <lb source="#P"/>salutem piam. et perpetuam in domino <app><lem wit="#L">felicitatem</lem><rdg wit="#P">feliciter</rdg></app>.</p>
