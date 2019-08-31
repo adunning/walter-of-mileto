@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The correspondence of Walter of Mileto at Cirencester Abbey, <foreign>c.</foreign> 1217</title>
+<author ref="https://wikidata.org/wiki/Q60800793">Walter of Mileto</author>
+<editor ref="https://orcid.org/0000-0003-0464-5036" xml:id="AD">Andrew Dunning</editor>
+</titleStmt>
+<publicationStmt>
+<publisher>Medieval Academy of America</publisher>
+<distributor>Digital Latin Library</distributor>
+<date>2019</date>
+<availability>
+<licence target="https://creativecommons.org/licences/by/4.0/">Distributed under a Creative Commons Attribution 4.0 International Licence.</licence>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<title level="s">Library of Digital Latin Texts</title>
+<biblScope unit="vol">1</biblScope>
+</seriesStmt>
+<sourceDesc>
+<p>Born digital.</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<front xml:id="front">
+<div type="section" xml:id="introduction">
+<head>Introduction</head>
+<p>Walter of Mileto (de Melida), a canon at Cirencester Abbey in the late twelfth and early thirteenth centuries, is named variously as a <foreign>socius</foreign>, <foreign>capellanus</foreign>, or <foreign>clericus</foreign> in the abbey’s cartularies. Two surviving letters document Walter’s enduring concern to catalogue and distribute the works of Alexander Neckam (1157–1217) after the abbot’s death, building relationships with other nearby religious communities. An unidentified Prior S. of Malmesbury addressed a touching encomium to Walter for Alexander using the abbot’s most popular work as its subject, <title xml:lang="la">Corrogationes Promethei</title>. The letters are undated, probably written soon after Alexander’s death. Walter himself wrote to Roger Noreys at Christ Church in Canterbury, giving us a glimpse into a project to create an edition of Alexander’s sermons.</p>
+<div type="section" xml:id="who-was-walter-of-mileto">
+<head>Who was Walter of Mileto?</head>
+<p>Walter of Mileto (in Latin, Walter de Melida; alternatively Melide or Melidie) functioned as both a scribe and administrator within the Augustinian community.<note>
+<p>This spelling is chosen on the basis of his autograph in Canterbury, Cathedral Library, Lit. B. 13 (57, iii), leaf inserted after fol. 67: cf. Andrew N. J. Dunning, ‘Mileto [Melida, Melide], Walter of (<foreign>fl. c.</foreign> 1170–<foreign>c.</foreign> 1220), Scribe and Augustinian Canon’, in <title>Oxford Dictionary of National Biography</title> (Oxford: Oxford University Press, 2018), <ref target="https://doi.org/10.1093/odnb/9780198614128.013.111226">https://doi.org/10.1093/odnb/9780198614128.013.111226</ref>.</p>
+</note> A document dated between June 1200 and July 1205 in the Cirencester cartulary first refers to him by his full name and later as <quote>magistro Waltero</quote>.<note>
+<p>C. D. Ross, ed., <title>The Cartulary of Cirencester Abbey, Gloucestershire</title> (London: Oxford University Press, 1964), 1:295–296 (no. 327/186), ‘fratrem uero Walterum de Melide constituit socium Alani celarii jta tamen quod predictus Alanus precipuam et plenam habeat amministracionem tam jnfra cepta curie quam extra super omnibus que ad officium celarii pertinent’: discussed at 1:xx; C. R. Cheney and Eric John, <title>Canterbury 1193–1205</title>, English Episcopal Acta 3 (London: Oxford University Press, 1986), 77–78 (no. 410).</p>
+</note> This appoints him an assistant to Alan the cellarer: together, they are responsible for reporting to the bishop of Worcester and the archdeacon of Gloucester anything the abbot of Cirencester might do that contravenes the arrangement made by this charter. The same document confirms that he is not to be identified with Walter of Gloucester, later abbot from 1217–30.</p>
+<p>Walter’s name presumably refers to Mileto, Calabria, which is called Melide in the chronicle of Roger of Hoveden. Norman connections encouraged frequent contact between England and Sicily at this time. Roger records that Richard I stayed at the town’s Benedictine abbey of the Holy Trinity on 21 September 1190;<note>
+<p>William Stubbs, ed., <title xml:lang="la">Chronica magistri Rogeri de Houedene</title>, Rerum Britannicarum medii aevi scriptores 51 (London: Longmans, Green, Reader, and Dyer, 1868–1871), 3:45; Henry T. Riley, trans., <title>The Annals of Roger de Hoveden</title> (London: Bohn, 1853), 2:157.</p>
+</note> this abbey was established by Roger I, the Norman count of Sicily, also responsible for an Augustinian foundation at Bagnara.<note>
+<p>Giuseppe Occhiato, ‘L’abbatiale détruite de la Sainte-Trinité de Mileto (Calabre)’, <title xml:lang="fr">Cahiers de civilisation médiévale</title> 21, no. 83 (1978): 231–52, <ref target="https://doi.org/10/gftnj2">https://doi.org/10/gftnj2</ref>; G. A. Loud, <title>The Latin Church in Norman Italy</title> (Cambridge: Cambridge University Press, 2007), 88–89, 276, <ref target="https://doi.org/10.1017/CBO9780511721083">https://doi.org/10.1017/CBO9780511721083</ref>.</p>
+</note> One can find a Peter de Melide living in England a few decades before Walter.<note>
+<p>Melville Madison Bigelow, <title>Placita Anglo-Normannica: Law Cases from William I to Richard I</title> (Boston: Little, Brown, 1879), 312–13, <ref target="https://archive.org/details/placitaanglonorm00bige">https://archive.org/details/placitaanglonorm00bige</ref>.</p>
+</note> Peter of Blois embarked on an ultimately disastrous venture in the Norman government;<note>
+<p>Karla Mallette, <title>The Kingdom of Sicily, 1100-1250: A Literary History</title>, The Middle Ages Series (Philadelphia: University of Pennsylvania Press, 2005), 94.</p>
+</note> Robert of Cricklade also journeyed there.<note>
+<p>James Craigie Robertson, ed., ‘Miracula sancti Thomæ Cantuariensis, auctore Benedicto, abbate Petriburgensi’, in <title>Materials for the History of Thomas Becket, Archbishop of Canterbury</title>, vol. 2, Rerum Britannicarum medii aevi scriptores 67 (London: Longman, 1875), 97, <ref target="https://archive.org/details/materialsforhist02robe">https://archive.org/details/materialsforhist02robe</ref>.</p>
+</note> Walter may himself have been a Norman.</p>
+<p>Various administrative roles are filled by a <quote>Waltero capellano</quote> or <quote>magistro W. capellano</quote> in 1203, 1208, and 1218–36.<note>
+<p>Ross, <title>Cartulary of Cirencester Abbey</title>, 2:502 (no. 582), 2:525 (no. 613), 2:340–42 (nos. 378/404, 379/403).</p>
+</note> Documents are found witnessed by a <quote>Waltero clerico</quote> in 1176–81, 1176–93, 1198–1200, and the early thirteenth century.<note>
+<p>Ross, 2:597 (no. 720), 2:565 (no. 673/871), 2:561 (no. 666/537), 2:568 (no. 680/895); see also Welbore St Clair Baddeley, <title>A History of Cirencester</title> (Cirencester: Cirencester Newspaper Company, 1924), 113 (no. 7), signed with his fellow scribe Simon.</p>
+</note> It may be the same <quote>Walterum clericum</quote> that holds the position <quote>capellanus de Bachampt</quote>’ (Beckhampton, 40 km south of Cirencester) <foreign>c.</foreign> 1190–93;<note>
+<p>Ross, <title>Cartulary of Cirencester Abbey</title>, 2:429 (no. 487/743).</p>
+</note> a <quote>Walterus rector capelle de Bach</quote>’ also occurs <title>c.</title> 1235.<note>
+<p>Ross, 2:431 (no. 488/740).</p>
+</note> There is also a reference in a document of 1187–1208 to a <quote>terram que fuit Walteri Clerici</quote>,<note>
+<p>Ross, 2:345 (no. 383).</p>
+</note> while an undated thirteenth-century document refers to a <quote>terram Walteri capellani</quote>.<note>
+<p>Ross, 3:983 (no. 627).</p>
+</note></p>
+<p>As a canon, Walter acted as a highly literate administrator. His script can be found at length at the end of Oxford, Bodleian Library, MS Laud Lat. 17, fols 223r–224v, a set of letters appealing a ruling that concerned several abbots, including that of Cirencester, datable between 1200 and 1213 based on the individuals named. Oxford, Jesus College, MS 48, fol. 85r includes an note on marital consent that is likely in Walter’s hand, placed at the end of the <title xml:lang="la">Speculum ecclesie quod abbas sancti uictoris ex dictis sanctorum patrum compilauit</title>, as it is entitled in this copy (often attributed erroneously to Hugh of St Victor).</p>
+<p>Walter could also write in a clean book hand. A series of colophons were added to the Cirencester manuscripts in the late twelfth century identifying the scribes who wrote them, though the inscriptions themselves are all in one hand and appear to have been added at the same time, possibly by Walter himself. London, British Library, Royal MS 7 F. <hi rend="smallcaps">vi</hi>, a copy of Paterius, was identified as having been written by Walter, canon and deacon, when Andrew was abbot and Adam de la Mora cantor.<note>
+<p>George F. Warner and J. P. Gilson, eds., <title>Catalogue of Western Manuscripts in the Old Royal and King’s Collections</title> (London: British Museum, 1921), 1:200–201 (and vol. 4, pl. 56e): <quote xml:lang="la">Liber est [= sancte] Marie de Cirecestre D’ Andree abbatis secundi eiusdem loci tempore scriptus per manum Walteri canonici et diaconi, D’ Adam de Lamora tunc cantore</quote>; Andrew G. Watson, <title>Catalogue of Dated and Datable Manuscripts, c. 700–1600, in the Department of Manuscripts, the British Library</title> (London: British Library, 1979), no. 879; Michael Gullick, ‘From Scribe to Binder: Quire Tackets in Twelfth-Century English Manuscripts’, in <title>Roger Powell, the Compleat Binder: Liber Amicorum</title>, ed. John L. Sharpe, Bibliologia 14 (Turnhout: Brepols, 1996), 4, 27.</p>
+</note> Andrew was in office from 1147 until 1176; Adam’s dates are not known, but he was followed by Alexander of Wellow, under whom at least four manuscripts were completed, meaning that the Royal manuscript could have been completed as late as the early 1170s. If this Alexander can be identified with a canon who witnesses an Oseney Abbey charter datable between 1157 and 1168, Adam was likely still cantor at this time.<note>
+<p>H. E. Salter, ed., <title>Cartulary of Oseney Abbey</title>, Oxford Historical Society 89–91, 97, 98, 101 (Oxford: Clarendon Press, 1929–1936), 5:26–27 (no. 538A): the dating is based on a reference to the memory of John de Pageham, bishop of Worcester from 1151 to 1157, and the document was issued during the abbacy of Wigod, 1154 to 1168; cited in Andrew G. Watson, <title>Catalogue of Dated and Datable Manuscripts c. 435–1600 in Oxford Libraries</title> (Oxford: Clarendon Press, 1984), 1:133 (no. 799); Gullick, ‘From Scribe to Binder: Quire Tackets in Twelfth-Century English Manuscripts’, 5.</p>
+</note></p>
+<p>Gullick identifies Walter as <quote>Scribe A</quote> of four further Cirencester manuscripts, where the canon appears not only to be working with another scribe but to be in charge of ensuring the texts’ accuracy: he is responsible for parts of a Cirenester cartulary (Marquess of Bath, MS Longleat 38b), not begun before 1182; parts of a copy of the letters of John of Salisbury, now Oxford, Bodleian Library, MS Barlow 48; part of Robert of Cricklade’s <title>De connubio Iacobi</title> in Hereford, Cathedral Library, MS P.iv.8; and a copy of the letters of Thomas Becket in London, British Library, Cotton Claudius B. <hi rend="smallcaps">ii</hi>, also annotated by Alexander Neckam.<note>
+<p>Gullick, ‘From Scribe to Binder: Quire Tackets in Twelfth-Century English Manuscripts’, 4–15.</p>
+</note> Walter personally corrected many of these manuscripts and added editorial judgements in the margins, as can be seen for example in Oxford, Bodleian Library, MS Barlow 48, fol. 64rb. It also appears that Walter added a few corrections to the exemplar of Barlow 48, from Malmesbury, now Oxford, Bodleian Library, MS Barlow 6, produced between 1189/90 and 1205,<note>
+<p>Written under abbot Robert of Melun, according to an inscription in Oxford, Bodleian Library, Barlow 6, fol. 209r, whose dates were updated in David Knowles et al., eds., <title>The Heads of Religious Houses: England and Wales</title> (Cambridge: Cambridge University Press, 2001–2008), 1:56; Clement C. J. Webb, ed., <title>Ioannis Saresberiensis episcopi Carnotensis Policratici siue De nugis curialium et uestigiis philosophorum libri VIII</title> (Oxford: Clarendon Press, 1909), 1:xiv–xvi gives his earliest date as 1187.</p>
+</note> as on fol. 123r. He also looks to be responsible for corrections to a volume of Bede, now Oxford, Jesus College, 53 (e.g. fol. 146v). In these volumes, Walter shows himself not only as a precise scribe, but also a textual critic in his own right, and even the modern editors of a critical edition of Thomas Becket’s letters judged his work intelligent.<note>
+<p>Anne J. Duggan, <title>The Correspondence of Thomas Becket, Archbishop of Canterbury, 1162–1170</title>, Oxford Medieval Texts (Oxford: Clarendon Press, 2000), 1:lxxxv–xciii.</p>
+</note></p>
+<p>Walter’s career at Cirencester appears to have lasted from at least <foreign>c.</foreign> 1175 until after the death of Alexander Neckam in 1217, a period of over forty years, which would require him to have lived until at least sixty-five if one leaves room for a master’s education (Alexander lived to sixty). This fits with the document making him a <foreign xml:lang="la">socius</foreign> between 1200 and 1205, which places Walter among the more senior canons in the house.</p>
+<p>In September 1212, a Walter was paid for taking a message from the king to Alexander, referred to specifically as the clerk of Alexander.<note>
+<p>Henry Cole, ed., <title>Documents Illustrative of English History in the Thirteenth and Fourteenth Centuries: Selected from the Records of the Department of the Queen’s Remembrancer of the Exchequer</title> (London: Eyre and Spottiswoode, 1844), 242, <ref target="https://archive.org/details/documentsillustr00greauoft">https://archive.org/details/documentsillustr00greauoft</ref> (<foreign>Rotulus misae</foreign>, 14 John): ‘Waltero Clerico suo’ and ‘Waltero Clerico Magistri Alexandri Nequam eunti in nuncium domini sui’; cited in R. W. Hunt, <title>The Schools and the Cloister: The Life and Writings of Alexander Nequam (1157–1217)</title>, ed. Margaret T. Gibson (Oxford: Clarendon Press, 1984), 13.</p>
+</note> A <quote>W. clerico</quote> also witnesses a charter for Alexander in 1213–17.<note>
+<p>Ross, <title>Cartulary of Cirencester Abbey</title>, 2:413–414 (no. 465).</p>
+</note> There are several other Walters in the Cirencester cartulary that might refer to the same person. One must allow that this could have been a paid secular clerk, separate from Walter of Mileto, but this figure’s correspondence certainly confirms that there was a close relationship between him and abbot Alexander.</p>
+<p>If Walter was called the <foreign>clericus</foreign> of Alexander, he was much more than an administrative assistant: his may be the second hand that corrects Oxford, Jesus College MS 94, a collection of Alexander’s works that includes autograph corrections. He follows Alexander’s style of roughing in additions to be entered formally by either himself or another scribe, which makes it difficult to distinguish in many cases. Along with additions to the commentaries on Proverbs and the <foreign>Mulierem fortem</foreign>, he may be responsible for some of the corrections to Oxford, Magdalen College, MS 139, though there are several hands at work in this manuscript; Gullick identifies his book hand in an addition to the bottom margin of fol. 49r.<note>
+<p>Forthcoming catalogue of the Magdalen College manuscripts by Ralph Hanna, crediting research conducted by Gullick in 1994; the entry also mentions the possible connection of the canon and deacon Walter with Walter of Mileto.</p>
+</note> This is a copy of <title xml:lang="la">De naturis rerum</title> written in an identical style to the Cirencester copy of the <title xml:lang="la">Tractatus super Mulierem fortem</title>, and presumably originating from the abbey. Titles have been added to many chapters, reflecting two different textual traditions: one including numbered chapters with headings in the later books, and one lacking these. He may also be the annotator of London, British Library, Royal MS 7 F. <hi rend="smallcaps">i</hi>, containing Alexander’s <title xml:lang="la">Speculum speculationum</title>.<note>
+<p>Rodney M. Thomson, ed., <title xml:lang="la">Alexander Nequam: Speculum speculationum</title>, Auctores Britannici Medii Aevi 11 (Oxford: Oxford University Press, 1988), xx also argues against identifying this hand with Alexander.</p>
+</note> The hand corrects most of the text, but does not revise it: where longer additions occur, they can be explained as corrections from an exemplar. This work was also unfinished at Alexander’s death, and this correction work appears to have been part of Walter’s activities as a sort of literary executor for the abbot.</p>
+</div>
+<div type="section" xml:id="an-edition-of-alexander-neckams-sermons">
+<head>An edition of Alexander Neckam’s sermons?</head>
+<p>The most vivid evidence for Walter’s work comes in the form of correspondence with two Benedictines. The first appears in Canterbury, Cathedral Library, MS Lit. B. 13 (57, iii), a manuscript that includes a number of sermons written by Alexander; it was owned by Roger Noreys, a monk at Christ Church, Canterbury in the early thirteenth century.<note>
+<p>Joan Greatrex, <title>Biographical Register of the English Cathedral Priories of the Province of Canterbury, c. 1066–1540</title> (Oxford: Clarendon Press, 1997), 244 identifies him with the controversial abbot of Evesham, but this is unlikely; see Jane E. Sayers, ‘Norreis [Norris], Roger (d. 1223), Abbot of Evesham’, in <title>Oxford Dictionary of National Biography</title>, ed. H. C. G. Matthew and Brian Howard Harrison (Oxford: Oxford University Press, 2004), <ref target="https://doi.org/10.1093/ref:odnb/20283">https://doi.org/10.1093/ref:odnb/20283</ref>.</p>
+</note> He gave a number of books to its library, the number of which is somewhat ambiguous in the catalogue: it might be either eleven or sixty-four, depending on how the entry is read. His donation also included a copy of Alexander’s <title xml:lang="la">De naturis rerum</title>.<note>
+<p>M. R. James, ed., <title>The Ancient Libraries of Canterbury and Dover</title> (Cambridge: University Press, 1903), 102 (no. 1106), <ref target="https://doi.org/10.1017/CBO9780511920097">https://doi.org/10.1017/CBO9780511920097</ref>.</p>
+</note> It originally lacked the end of Alexander’s sermon 39,<note>
+<p>For a listing of Alexander’s sermons, see Hunt, <title>Schools</title>, 150–53.</p>
+</note> and Roger asked about this on a trip to Cirencester. Walter supplies the requested end of the sermon, accompanied by an autograph letter now inserted after fol. 67, asking in return for a list of the sermons by Alexander available to Roger, as quickly as possible.</p>
+<p>Walter is eager both to spread Alexander’s writings and collect them himself. This letter probably accounts for the process behind the compilation of Oxford, Bodleian Library, MS Wood empt. 13 (<title>SC</title> 8601), a collection of most, but not all, of Alexander’s sermons (lacking, for example, a few found in the Canterbury manuscript), organized to follow the church year. The manuscript belonged to St Augustine’s in Canterbury, but it is possible that it was originally one of the sermon collections found belonging to Roger Noreys, of which he owned many.</p>
+</div>
+<div type="section" xml:id="walters-letter-from-malmesbury-on-corrogationes-promethei">
+<head>Walter’s letter from Malmesbury on <title xml:lang="la">Corrogationes Promethei</title></head>
+<p>The second letter involving Walter is from an unidentifed <quote>S.</quote>, prior of Malmesbury, writing on his admiration of Alexander’s work, and focusing particularly on the <title xml:lang="la">Corrogationes Promethei</title>. He does not refer to the book by this title, but describes it as being about the meanings of words, designed as an introductory work for the instruction of boys, and having a prologue, which allows it to be identified positively. There seems to have been a special affinity for this work at Malmesbury, as the monks used it as the source for several additions to <title xml:lang="la">Sol meldunensis</title> (Cambridge, University Library, MS Gg.6.42). Copies of the letter of S. are now found at the end of the verse anthology in Paris, Bibliothèque nationale de France, MS lat. 11867, fol. 240va–b; and in a copy of <title xml:lang="la">Corrogationes Promethei</title> from Sempringham Priory, now London, British Library, Royal MS 5 C. <hi rend="smallcaps">v</hi>, fol. 57rb–vb.<note>
+<p>An earlier part of the letter is quoted from the Paris manuscript in Paul Meyer, ‘Notice sur les <title xml:lang="la">Corrogationes Promethei</title> d’Alexandre Neckam’, <title xml:lang="fr">Notices et extraits des manuscrits de la Bibliothèque Nationale et autres bibliothèques</title> 35, no. 2 (1896): 657n1, <ref target="https://archive.org/details/NoticesEtExtraits35Parties1Et2">https://archive.org/details/NoticesEtExtraits35Parties1Et2</ref>; summarized in Hunt, <title>Schools</title>, 12; the letter on <title xml:lang="la">Corrogationes Promethei</title> found in Évreux, Bibl. Mun., 72, fol. 1v is a different text, in spite of the claim of Hunt, 131.</p>
+</note> S. refers to Alexander in glowing terms: <quote>For he has not only accepted gold, but is entirely clothed in it.</quote><note>
+<p>Paris, Bibliothèque nationale de France, lat. 11867, fol. 240va–b: <quote>Non enim solummodo aurum recipit⸵ sed et auro tota uestitur.</quote></p>
+</note> The prior eludes further identification, though he is also noted in a document from 1246.<note>
+<p>W. Rich Jones and W. Dunn Macray, eds., <title>Charters and Documents Illustrating the History of the Cathedral, City and Diocese of Salisbury, in the Twelfth and Thirteenth Centuries</title>, Rerum Britannicarum Medii Aevi Scriptores 97 (London: Eyre and Spottiswoode, 1891), 301, <ref target="https://archive.org/details/chartersdocument00cath">https://archive.org/details/chartersdocument00cath</ref>; cited in Josiah Cox Russell, ‘Alexander Neckam in England’, <title>English Historical Review</title> 47, no. 186 (April 1932): 265n8, <ref target="https://doi.org/10.1093/ehr/xlvii.clxxxvi.260">https://doi.org/10.1093/ehr/xlvii.clxxxvi.260</ref>.</p>
+</note> Following this effusion in Alexander’s praise, he comes to an intriguing conclusion:</p>
+<quote>
+<p>This is my pronouncement on the work and the worker. You will have seen whether it is good and clear. My mind suggests to me in faithful testimony not to wander in words. I hope these are pleasing to you; if not, let me know first what displeases.</p>
+</quote>
+<p>S. cannot be concerned that Walter will find his views on Alexander controversial; rather, it appears that the letter is intended to fit a particular purpose that Walter requested. The terms in which he speaks suggest that he is writing after the Alexander’s death, and Walter might have solicited an encomium from Malmesbury to commemorate the abbot’s work.</p>
+<p>The letter might also have been intended to accompany a new edition of <title xml:lang="la">Corrogationes Promethei</title>, or even a projected collection of Alexander’s works similar to that created for Hugh of St Victor. Some evidence for such a campaign might be discernible in the consistency and dating of surviving manuscripts. There are several thirteenth-century copies of both <title xml:lang="la">Super cantica</title> and <title xml:lang="la">De naturis rerum</title>, and they have a remarkably consistent appearance, sometimes found even in copies from later centuries. Wright first observed that there was a pattern of consistent marginal titles in his manuscripts, and suggested that these were part of an archetype.<note>
+<p>Thomas Wright, ed., <title xml:lang="la">Alexandri Neckam De naturis rerum libri duo. With the poem of the same author, De laudibus divinæ sapientiæ</title>, Rerum Britannicarum medii aevi scriptores 34 (London: Longman, Green, Longman, Roberts, and Green, 1863), lxxvii, <ref target="https://doi.org/10.1017/CBO9781139208239">https://doi.org/10.1017/CBO9781139208239</ref>.</p>
+</note> The same can also be said of <title xml:lang="la">De utensilibus</title>, of which there are many more copies, and which was probably one of Alexander’s earlier works: most of its manuscripts are of a similar size, and almost universally they leave space between the lines of the main text for glosses. This phenomenon can be partially explained by arguing that the scribes understood the work’s purpose, and in many cases reproduced what they saw. Walter’s corrections and correspondence also provide evidence for a conscious effort to distribute accurate copies of the works of the authors for which his abbey was renowned.</p>
+</div>
+</div>
+<div type="section" xml:id="bibliography">
+<head>Bibliography</head>
+<p>Baddeley, Welbore St Clair. <title>A History of Cirencester</title>. Cirencester: Cirencester Newspaper Company, 1924.</p>
+<p>Bigelow, Melville Madison. <title>Placita Anglo-Normannica: Law Cases from William I to Richard I</title>. Boston: Little, Brown, 1879. <ref target="https://archive.org/details/placitaanglonorm00bige">https://archive.org/details/placitaanglonorm00bige</ref>.</p>
+<p>Cheney, C. R., and Eric John. <title>Canterbury 1193–1205</title>. English Episcopal Acta 3. London: Oxford University Press, 1986.</p>
+<p>Cole, Henry, ed. <title>Documents Illustrative of English History in the Thirteenth and Fourteenth Centuries: Selected from the Records of the Department of the Queen’s Remembrancer of the Exchequer</title>. London: Eyre and Spottiswoode, 1844. <ref target="https://archive.org/details/documentsillustr00greauoft">https://archive.org/details/documentsillustr00greauoft</ref>.</p>
+<p>Duggan, Anne J. <title>The Correspondence of Thomas Becket, Archbishop of Canterbury, 1162–1170</title>. 2 vols. Oxford Medieval Texts. Oxford: Clarendon Press, 2000.</p>
+<p>Dunning, Andrew N. J. ‘Mileto [Melida, Melide], Walter of (<foreign>fl. c.</foreign> 1170–<foreign>c.</foreign> 1220), Scribe and Augustinian Canon’. In <title>Oxford Dictionary of National Biography</title>. Oxford: Oxford University Press, 2018. <ref target="https://doi.org/10.1093/odnb/9780198614128.013.111226">https://doi.org/10.1093/odnb/9780198614128.013.111226</ref>.</p>
+<p>Greatrex, Joan. <title>Biographical Register of the English Cathedral Priories of the Province of Canterbury, c. 1066–1540</title>. Oxford: Clarendon Press, 1997.</p>
+<p>Gullick, Michael. ‘From Scribe to Binder: Quire Tackets in Twelfth-Century English Manuscripts’. In <title>Roger Powell, the Compleat Binder: Liber Amicorum</title>, edited by John L. Sharpe, 240–59. Bibliologia 14. Turnhout: Brepols, 1996.</p>
+<p>Hunt, R. W. <title>The Schools and the Cloister: The Life and Writings of Alexander Nequam (1157–1217)</title>. Edited by Margaret T. Gibson. Oxford: Clarendon Press, 1984.</p>
+<p>James, M. R., ed. <title>The Ancient Libraries of Canterbury and Dover</title>. Cambridge: University Press, 1903. <ref target="https://doi.org/10.1017/CBO9780511920097">https://doi.org/10.1017/CBO9780511920097</ref>.</p>
+<p>Jones, W. Rich, and W. Dunn Macray, eds. <title>Charters and Documents Illustrating the History of the Cathedral, City and Diocese of Salisbury, in the Twelfth and Thirteenth Centuries</title>. Rerum Britannicarum Medii Aevi Scriptores 97. London: Eyre and Spottiswoode, 1891. <ref target="https://archive.org/details/chartersdocument00cath">https://archive.org/details/chartersdocument00cath</ref>.</p>
+<p>Knowles, David, C. N. L. Brooke, Vera C. M. London, and David M. Smith, eds. <title>The Heads of Religious Houses: England and Wales</title>. 3 vols. Cambridge: Cambridge University Press, 2001–2008.</p>
+<p>Loud, G. A. <title>The Latin Church in Norman Italy</title>. Cambridge: Cambridge University Press, 2007. <ref target="https://doi.org/10.1017/CBO9780511721083">https://doi.org/10.1017/CBO9780511721083</ref>.</p>
+<p>Mallette, Karla. <title>The Kingdom of Sicily, 1100-1250: A Literary History</title>. The Middle Ages Series. Philadelphia: University of Pennsylvania Press, 2005.</p>
+<p>Meyer, Paul. ‘Notice sur les <title xml:lang="la">Corrogationes Promethei</title> d’Alexandre Neckam’. <title xml:lang="fr">Notices et extraits des manuscrits de la Bibliothèque Nationale et autres bibliothèques</title> 35, no. 2 (1896): 641–82. <ref target="https://archive.org/details/NoticesEtExtraits35Parties1Et2">https://archive.org/details/NoticesEtExtraits35Parties1Et2</ref>.</p>
+<p xml:lang="fr">Occhiato, Giuseppe. ‘L’abbatiale détruite de la Sainte-Trinité de Mileto (Calabre)’. <title>Cahiers de civilisation médiévale</title> 21, no. 83 (1978): 231–52. <ref target="https://doi.org/10/gftnj2">https://doi.org/10/gftnj2</ref>.</p>
+<p>Riley, Henry T., trans. <title>The Annals of Roger de Hoveden</title>. 2 vols. London: Bohn, 1853.</p>
+<p>Robertson, James Craigie, ed. ‘Miracula sancti Thomæ Cantuariensis, auctore Benedicto, abbate Petriburgensi’. In <title>Materials for the History of Thomas Becket, Archbishop of Canterbury</title>, 2:21–281. Rerum Britannicarum medii aevi scriptores 67. London: Longman, 1875. <ref target="https://archive.org/details/materialsforhist02robe">https://archive.org/details/materialsforhist02robe</ref>.</p>
+<p>Ross, C. D., ed. <title>The Cartulary of Cirencester Abbey, Gloucestershire</title>. 2 vols. London: Oxford University Press, 1964.</p>
+<p>Russell, Josiah Cox. ‘Alexander Neckam in England’. <title>English Historical Review</title> 47, no. 186 (April 1932): 260–68. <ref target="https://doi.org/10.1093/ehr/xlvii.clxxxvi.260">https://doi.org/10.1093/ehr/xlvii.clxxxvi.260</ref>.</p>
+<p>Salter, H. E., ed. <title>Cartulary of Oseney Abbey</title>. 6 vols. Oxford Historical Society 89–91, 97, 98, 101. Oxford: Clarendon Press, 1929–1936.</p>
+<p>Sayers, Jane E. ‘Norreis [Norris], Roger (d. 1223), Abbot of Evesham’. In <title>Oxford Dictionary of National Biography</title>, edited by H. C. G. Matthew and Brian Howard Harrison. Oxford: Oxford University Press, 2004. <ref target="https://doi.org/10.1093/ref:odnb/20283">https://doi.org/10.1093/ref:odnb/20283</ref>.</p>
+<p>Stubbs, William, ed. <title xml:lang="la">Chronica magistri Rogeri de Houedene</title>. 4 vols. Rerum Britannicarum medii aevi scriptores 51. London: Longmans, Green, Reader, and Dyer, 1868–1871.</p>
+<p>Thomson, Rodney M., ed. <title xml:lang="la">Alexander Nequam: Speculum speculationum</title>. Auctores Britannici Medii Aevi 11. Oxford: Oxford University Press, 1988.</p>
+<p>Warner, George F., and J. P. Gilson, eds. <title>Catalogue of Western Manuscripts in the Old Royal and King’s Collections</title>. 4 vols. London: British Museum, 1921.</p>
+<p>Watson, Andrew G. <title>Catalogue of Dated and Datable Manuscripts, c. 700–1600, in the Department of Manuscripts, the British Library</title>. 2 vols. London: British Library, 1979.</p>
+<p>———. <title>Catalogue of Dated and Datable Manuscripts c. 435–1600 in Oxford Libraries</title>. 2 vols. Oxford: Clarendon Press, 1984.</p>
+<p>Webb, Clement C. J., ed. <title xml:lang="la">Ioannis Saresberiensis episcopi Carnotensis Policratici siue De nugis curialium et uestigiis philosophorum libri VIII</title>. 2 vols. Oxford: Clarendon Press, 1909.</p>
+<p>Wright, Thomas, ed. <title xml:lang="la">Alexandri Neckam De naturis rerum libri duo. With the poem of the same author, De laudibus divinæ sapientiæ</title>. Rerum Britannicarum medii aevi scriptores 34. London: Longman, Green, Longman, Roberts, and Green, 1863. <ref target="https://doi.org/10.1017/CBO9781139208239">https://doi.org/10.1017/CBO9781139208239</ref>.</p>
+</div>
+<div type="section" xml:id="conspectus">
+<head>Conspectus</head>
+<listWit>
+<witness xml:id="C">
+<msDesc>
+<msIdentifier>
+<settlement>Canterbury</settlement>
+<repository>Cathedral Library</repository>
+<collection>Lit.</collection>
+<idno>B. 13 (57, iii)</idno>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="L">
+<msDesc>
+<msIdentifier>
+<settlement>London</settlement>
+<repository>British Library</repository>
+<collection>Royal</collection>
+<idno>5 C. v</idno>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="P">
+<msDesc facs="http://gallica.bnf.fr/ark:/12148/btv1b90667289">
+<msIdentifier>
+<settlement>Paris</settlement>
+<repository>Bibliothèque nationale de France</repository>
+<collection>Latin</collection>
+<idno>11867</idno>
+</msIdentifier>
+</msDesc>
+</witness>
+</listWit>
+</div>
+</front>
+<group>
+<text xml:id="prior-s.-of-malmesbury-to-walter-of-mileto">
+<front>
+<div type="introduction">
+<head>Prior S. of Malmesbury to Walter of Mileto</head>
+<p>This letter occurs in Paris, Bibliothèque nationale de France, MS lat. 11867, fol. 240v (<ref target="#P">P</ref>), an English anthology of Alexander Neckam’s poetry from the last quarter of the thirteenth century, owned by the Abbey of Saint-Germain-des-Prés before the French Revolution; and London, British Library, Royal MS 5 C. <hi rend="smallcaps">v</hi>, fol. 57r–v (<ref target="#L">L</ref>), occurring after a copy of Alexander’s <title xml:lang="la">Corrogationes Promethei</title> from the end of the thirteenth or the beginning of the fourteenth century, from the Gilbertine priory of St Mary the Virgin in Sempringham, Lincolnshire.</p>
+</div>
+</front>
+<body>
+<div type="edition" xml:lang="la">
+<p>
+<pb source="#P" n="240v"/><cb source="#P" n="a"/><pb source="#L" n="57r"/><cb source="#P" n="b"/>
+<lb source="#P"/><app><lem wit="#P">Venerabili canonico <name ref="https://wikidata.org/wiki/Q5121859">cyrencestr’</name> et amico karissimo et fratri in
+<lb source="#P"/><name ref="https://wikidata.org/wiki/Q302">cristo</name> magistro <name>waltero <name ref="https://wikidata.org/wiki/Q54720">melidie</name></name></lem><rdg wit="#L">Venerabili fratri in <name ref="https://wikidata.org/wiki/Q302">cristo</name> et amico karissimo domino domino canonico <name ref="https://wikidata.org/wiki/Q5121859">Cyrenc’</name></rdg></app> frater <name>S.</name> dictus prior <name ref="https://wikidata.org/wiki/Q550064">malmesbir’</name>.
+<lb source="#P"/>salutem piam. et perpetuam in domino <app><lem wit="#L">felicitatem</lem><rdg wit="#P">feliciter</rdg></app>.</p>
+<p>Cum de bonis omnibus bene
+<lb source="#P"/>sapere bonorum mentibus bene affectis sit <app><lem wit="#P">officiosum</lem><rdg wit="#L">offitium</rdg></app> debitum. hiis
+<lb source="#P"/>tamen quos et noticia caros et amor intimos exhibet⸵ <app><lem wit="#P">precipuus</lem><rdg wit="#L">pre<del>s</del>cipuus</rdg></app>
+<lb source="#P"/>debetur honor et in bene gestis predicacio meritorum. et in bonis
+suc<lb break="no" source="#P"/>cessibus extollencia laudum. Hinc <app><lem wit="#P">ergo</lem><rdg wit="#L">ego</rdg></app> quota pars amicorum.
+predican<lb break="no" source="#P"/>di uiri et magni amici magistri <name ref="https://wikidata.org/wiki/Q1974885">alexandri</name> titulos extollere
+<lb source="#P"/>cupiens dum montes parturio. <cit><quote>ridiculum <app><lem source="#AD">murem</lem><rdg wit="#L">mutem</rdg><rdg wit="#P"/></app></quote>
+<bibl>
+<author>Horace</author>
+<title>Ars poetica</title>
+<biblScope unit="line">139</biblScope>
+</bibl></cit> in partu emittere dici
+<lb source="#P"/>possum. Adeo maius est quod sencio⸵ quam quod ore <app><lem wit="#P">depromere</lem><rdg wit="#L">depremere</rdg></app> <app><lem wit="#L">ualeam</lem><rdg wit="#P"/></app>. Sed quoniam
+ta<lb break="no" source="#P"/>lis nature <app><lem/><rdg wit="#L"><del>michi</del></rdg></app> natiuus <app><lem wit="#P">color inoleuit</lem><wit wit="#L">calor ideo lenit</wit></app> ut <app><lem wit="#P">fidium</lem><rdg wit="#L">fiduum</rdg></app> que <app><lem wit="#P"/><rdg wit="#L">in</rdg></app> instrumentis
+<lb source="#P"/>extense sunt consuetudinem sequar. que quolibet casu si tanguntur
+<lb source="#P"/>silere non possunt. Ego michi tacere non possum. quin uel mecum animo meo
+<lb source="#P"/>satisfaciam. <app><lem wit="#P">Vestram</lem><rdg wit="#L">uestra</rdg></app> uero bonitatem mei consilii participem esse
+<lb source="#P"/>uelim. que nullo malicie fuco ni fallor mea uerba signabit. Sic
+<lb source="#P"/>enim genituram <app><lem wit="#P">uestram</lem><rdg wit="#L">nostram</rdg></app> beniuolus respexit horoscopus ut nullius
+<lb source="#P"/>nociui syderis sit <sic><app><lem wit="#P">papa</lem><rdg wit="#L">passa</rdg></app> decretum</sic>.</p>
+<p>Postquam itaque in manus meas
+ue<lb break="no" source="#P"/>nit liber ille qui quasi de uerborum significacionibus uel proprietatibus. uel si
+<lb source="#P"/>quid <app><lem wit="#P">huiusmodi</lem><rdg wit="#L">huius</rdg></app> dici <app><lem wit="#P">debeat</lem><rdg wit="#L">debet</rdg></app>. editus est a bono magistro. introducto<lb break="no" source="#P"/>rio <app><lem wit="#P">modo</lem><rdg wit="#L">meo</rdg></app> ad instructionem minorum. in ipsa facie prologi adeo
+<lb source="#P"/>gauisus sum⸵ ut ad singula uerba benedictiones illi uotiuas
+o<lb break="no" source="#P"/>rarem. <app><lem wit="#P">Ita</lem><rdg wit="#L">Itaque</rdg></app> in eo nitet intencio iusti propositi quod <app><lem wit="#P">dulcis</lem><rdg wit="#L">ducis</rdg></app>
+kari<lb break="no" source="#P"/>tas fideli dispensatori suo <pb source="#L" n="57v"/><cb source="#L" n="a"/> suggessit⸵ ut ubera sponse
+uidea<lb break="no" source="#P"/>tur ostendere ad alliciendos paruulos ad suggendum lac. et pre
+uberta<lb break="no" source="#P"/>te comedant <quote>butirum</quote>. nec <quote>mel</quote> sciencie uidi defuturum. ut eo
+<app><lem source="#AD">refecti</lem><rdg wit="#P">infe<lb break="no" source="#P"/>cti</rdg><rdg wit="#L">refecta</rdg></app> sciant <cit><quote>reprobare malum. et eligere bonum.</quote><bibl><title>Isaiah</title><biblScope>7.15</biblScope></bibl></cit></p>
+<p>Hinc quasi porticum
+<lb source="#P"/><name ref="https://wikidata.org/wiki/Q37085">salomonis</name> ingressus. dum transmissas quondam scolasticas <app><rdg wit="#P"><del rend="expunct">i</del></rdg></app>
+<lb source="#P"/>picturas intueor quasi per amena <app><lem wit="#P">uirecta</lem><rdg wit="#L">iniecta</rdg></app> iuuentutis oblite.
+<lb source="#P"/>florum <app><lem wit="#P"/><rdg wit="#L"><del>ardores</del></rdg>
+</app> odores quos in tali uiro emarcuisse putaueram⸵
+uehemen<lb break="no" source="#P"/>ter admiratus sum. Sed laudanda est felicis memorie cella. que
+<lb source="#P"/>tot et tantas et tam uarias apotecharum gazas comprehendit.
+<lb source="#P"/>et sine marcore seruare preualuit. <app><lem wit="#P">Hic</lem><rdg wit="#L">hinc</rdg></app> bene <quote>paterfamilias</quote> bonus
+<lb source="#P"/>et diues dici debet. <quote>qui de thesauro suo <app><lem wit="#P">noua et uetera profert</lem><rdg wit="#L">profert noua et uetera</rdg></app>.</quote> sine
+<lb source="#P"/>dubio <app><lem wit="#L">sedes</lem><rdg wit="#P">sedem</rdg></app> sapiencie dici. res et effectus cum experiencia iubent animam
+<lb source="#P"/>eius. Hec est <app><lem wit="#L">etiam</lem><rdg wit="#P"/></app> sponsa fidelis que omnia poma noua et uetera dilecto
+<lb source="#P"/>reseruat ut quasi aliquibus de familia illius modesta hillaritate
+<lb source="#P"/>dicere possit.
+<cit>
+<quote>
+<lg>
+<l>        <!-- will this indent the line? -->Sunt nobis <app><lem wit="#P">mitia</lem><rdg wit="#L">initia</rdg></app> poma⸵</l>
+<l>Castanee molles. et pressi 
+<lb source="#P"/>copia lactis.</l>
+</lg>
+</quote>
+<bibl>
+<author>Virgil</author>
+<title>Eclogues</title>
+<biblScope>1.80–81</biblScope>
+</bibl>
+</cit>
+Delicie quippe rurales sepe gustum exhylarant. dum<lb break="no" source="#P"/>modo modestitas non <app><lem wit="#P">excludatur</lem><rdg wit="#L">exclaudant</rdg></app>.</p>
+<p><app><lem wit="#P">In</lem><rdg wit="#L">Inest in</rdg></app> hiis itaque cum iam <app><lem wit="#L">diuscule</lem><rdg wit="#P"/></app> non tam
+re<lb break="no" source="#P"/>fectus <app><lem wit="#L">essem</lem><rdg wit="#P"/></app> quam prouocatus ad alia. mentis et oculorum studium ad ulteriora
+<lb source="#P"/>et interiora porrexi. Tum uero quasi tabernaculum federis uel
+<name ref="https://wikidata.org/wiki/Q37085">salomo<lb break="no" source="#P"/>nis</name> templum <app><lem wit="#P">ingredior curiosus toti mundo mirificum
+specta<lb break="no" source="#P"/>tor</lem><rdg wit="#L">toti mundo mirificum curiosus spectator ingredior</rdg></app>. et ecce <app><lem wit="#P">uidi</lem><rdg wit="#L">mundi</rdg></app> et sensi opus et operam eius que <app><lem wit="#P">ducit</lem><rdg wit="#L">dicit</rdg></app> in prouerbiis.
+<lb source="#P"/><cit><quote><app><lem wit="#L">Ego</lem><rdg wit="#P">Ecce</rdg></app> eruditis intersum cogitacionibus</quote>
+<bibl>
+<title>Prov.</title>
+<biblScope>8.12</biblScope>
+</bibl>
+</cit>
+<cit><quote>et delicie mee <app><lem wit="#P"/><rdg wit="#L">esse</rdg></app> cum filiis
+<lb source="#P"/>hominum.</quote>
+<bibl>
+<title>Prov.</title>
+<biblScope>8.31</biblScope>
+</bibl></cit> Vbi uidere michi uisus sum. uel <name ref="https://wikidata.org/wiki/Q853439">beseleel</name> filium <name ref="https://wikidata.org/wiki/Q66919839">huri</name> filii <name ref="https://wikidata.org/wiki/Q492665">hur</name>.<cit>
+<note>cf. <bibl><title>Exod.</title> 31.2, <biblScope>35.31</biblScope>, <biblScope>36.1</biblScope>, <biblScope>37.1</biblScope>, <biblScope>38.22</biblScope></bibl>; <bibl><title>2 Chron.</title> <biblScope>1.5</biblScope></bibl></note>
+</cit>
+<lb source="#P"/>cui dederat <app><lem wit="#P">deus</lem><rdg wit="#L">dominus</rdg></app> in cor ut faceret <cit>
+<quote>omne opus in domo domini.</quote>
+<bibl>
+<title>1 Kings</title>
+<biblScope>7.51</biblScope>
+</bibl>
+<bibl>
+<title>2 Chron.</title>
+<biblScope>4.22</biblScope>
+</bibl></cit> qui saga
+<lb source="#P"/>disponeret. qui cortinas intexeret. qui <app><lem wit="#L">colores misceret. qui</lem><rdg wit="#P"/></app> <app><lem wit="#L">ansas</lem><rdg wit="#P">ausas</rdg></app> et fibulas laquearet.
+<lb source="#P"/>cherubin exsculperet. archam deauraret. propiciatorium
+statu<lb break="no" source="#P"/>eret. <app><lem wit="#P">mensam sterneret</lem><rdg wit="#L"/></app>. panes proposicionis apponeret. uel <name ref="https://wikidata.org/wiki/Q467115">hyram</name>⸵
+<lb source="#P"/><name ref="https://wikidata.org/wiki/Q82070">tyrium</name> omni sapiencia et doctrina plenum.
+<cit>
+<note xml:lang="en">cf. <bibl><title>1 Kings</title> <biblScope>7.14</biblScope></bibl> and <bibl><title>Exod.</title> <biblScope>35.32</biblScope></bibl>, describing Bezalel.</note>
+</cit> opera in domo domini <app><lem wit="#P">facientem</lem><rdg wit="#L">fatie utere</rdg></app>.
+<lb source="#P"/>tota ex lignis et lapidibus preciosis et auro. Es enim et
+<cit><quote>argen<lb break="no" source="#P"/>tum pro nichilo <app><lem wit="#P">computabatur</lem><rdg wit="#L">reputabantur</rdg></app> in <app><lem wit="#P">illis diebus</lem><rdg wit="#L">diebus illis</rdg></app></quote>
+<bibl><title>2 Chron.</title> <biblScope>9.20</biblScope></bibl>
+</cit>.</p>
+<p>Nonne sic et noster
+<name ref="https://wikidata.org/wiki/Q1974885">alex<lb break="no" source="#P"/>ander</name>⸵ historiam <app><lem wit="#P">disponit</lem><rdg wit="#L">disposuit</rdg></app> in sagis. Allegorias in cortinis. <app><lem>Tropologias</lem><rdg wit="#P">Tropo<lb break="no" source="#P"/>lis</rdg><rdg wit="#L">tropol<am>’</am></rdg></app> in coloribus. Questiones et soluciones in <app><lem wit="#P">in ansis</lem><rdg wit="#L">mansis</rdg></app> et fibulis. Sciencie
+<lb source="#P"/>plenitudinem in cherubin. Anagogen in archa. Religionem⸵
+<lb source="#P"/>in propiciatorio. Refectionem plenam in mensa cum panibus. De qua
+<lb source="#P"/>dicitur. <cit><quote>Parasti in conspectu meo mensam <app><lem wit="#P"/><rdg wit="#L">meam</rdg></app> aduersus eos qui tribulant me.</quote><bibl>
+<title>Ps.</title><biblScope>22.5</biblScope>
+</bibl></cit> Denique omnia solida
+<cb source="#P" n="b"/>
+<lb source="#P"/>sunt in opere templi que facit <app><lem wit="#L"><name ref="https://wikidata.org/wiki/Q467115">hyram</name></lem><rdg wit="#P">iram</rdg></app> lignis et lapidibus preciosis. et auro
+<lb source="#P"/>sapiencie cuncta nitent. Vnde et libri <app><lem wit="#P">titulus</lem><rdg wit="#L">titislus</rdg></app> meo iudicio digne
+di<lb break="no" source="#P"/>cetur. <title>aurea <app><lem wit="#P">alexandrina</lem><rdg wit="#L">alexandria</rdg></app></title>. exemplo cuiusdam phisice confectionis. que
+<lb source="#P"/>sic uocatur ex ciuitate forsitan in qua primum inuenta est. uel
+<lb source="#P"/>ex <app><lem wit="#P">auctore</lem><rdg wit="#L">auctoritate</rdg></app> qui eam inuenit. et ex auro quod <app><lem wit="#P">recepit</lem><rdg wit="#L">recipit</rdg></app>. Ista uero
+<lb source="#P"/>nostra <name ref="https://wikidata.org/wiki/Q87 https://wikidata.org/wiki/Q1974885">alexandrina</name> et <app><lem wit="#P">melior</lem><rdg wit="#L">me<del>d</del>lior</rdg></app> est et dignior <app><lem wit="#P"/><rdg wit="#L">est</rdg></app> nomine tali. tum au<lb break="no" source="#P"/>ctore qui condidit tum confectione <cb source="#L" n="b"/><app><lem wit="#P">quam</lem><rdg wit="#L">quem</rdg></app> continet. Non enim solummodo aurum
+<lb source="#P"/>recipit⸵ sed et auro tota uestitur.<cit>
+<note>cf. <bibl><title>Ps.</title> <biblScope>44.10</biblScope></bibl></note>
+</cit> et eo <app><lem wit="#L">meliore</lem><rdg wit="#P">melior</rdg></app>⸵ quo <cit><quote>anima plus est
+<lb source="#P"/>quam esca et corpus plus quam uestimentum.</quote><bibl>
+<title>Luke</title> <biblScope>12.23</biblScope>
+</bibl></cit></p>
+<p>Hec mea sententia est de opere.
+<lb source="#P"/>et <app><lem wit="#P"/><rdg wit="#L">de</rdg></app> opifice. Vos uideritis utrum bene et plene. Mea <app><lem wit="#P">michi</lem><rdg wit="#L">igitur</rdg></app> mens
+fide<lb break="no" source="#P"/>li testimonio suggerit⸵ non errasse in uerbo. Vtinam hec uobis
+<lb source="#P"/>placeant. sin autem. michi primum <app><lem wit="#P">notificate</lem><rdg wit="#L">notificare</rdg></app> quid displiceat.
+Vale<lb break="no" source="#P"/>te karissime.
+</p>
+</div>
+<div type="translation">
+<p>To the venerable canon of <name>Cirencester</name>, a most dear friend and brother in Christ, master <name>Walter of <name>Mileto</name></name>: brother <name>S.</name>, prior of <name>Malmesbury</name>, faithful greetings and everlasting happiness in the Lord.</p>
+<p>It is a pleasant duty to savour all good things when our minds are already under the influence of good things. We owe them particular honour, then, when acquaintance presents them as dear and love as intimate. We should proclaim their merits from good deeds, and lift up praise from their good outcomes. And so, it is the part of his friends to extol the titles of master Alexander, a praiseworthy man and a great friend, desiring that while I bring forth mountains, I can be said to give birth to a <cit><quote>ridiculous mouse</quote>
+<note>Referring to <bibl><author>Horace</author>, <title>Ars poetica</title> <biblScope>139</biblScope></bibl>: <quote>Mountains shall labour; a ridiculous mouse shall be born.</quote></note></cit>. What I feel is much greater than what I can produce with my mouth. But because such an inborn timbre of nature has come about, as of the strings which are stretched out in instruments, I may follow their custom: if they are touched in any circumstance, they cannot keep silent. I cannot keep silent for my own part, so that at least I may satisfy my own soul. I wish, however, your generosity to be a companion of my discussion: it will mark my words with no dye of malice, unless I am deceived. For the benevolent zodiac so gazed on your birth that a decree from the pope might be of no baleful star.</p>
+<p>After, then, that book on the meanings or properties of words came into my hands – or, if something of this sort should be said, it was published by the good master in an introductory way for the teaching of children – I rejoiced at the very sight of the prologue. I was offering prayers of blessing for him at every word. The aim of a sound purpose so shines in it that sweet charity encourages her faithful steward, just as she seems to show the bride’s breasts to entice infants to suckle milk. They may eat butter through her abundance, and I have not seen the honey of her knowledge lacking, so that, refreshed by it, they may know <cit><quote>to refuse the evil and choose the good</quote><bibl>
+<title>Isaiah</title> <biblScope>7.15</biblScope>
+</bibl></cit>.</p>
+<p>From this point, as though entering Solomon’s porch, while I gaze upon the scholastic scenes once handed down as if through the pleasant greenswards of my forgotten youth, I energetically admire the scents of flowers that I had thought to have withered in such a man. But the happy storeroom of memory is to be praised that embraces so many and so great and so different treasures of repositories, and succeeds in protecting them without decay. This householder should well be called good and rich <cit><quote>who brings forth out of his treasure things new and old</quote><bibl>
+<title>Matt.</title> <title>13.52</title>
+</bibl></cit>; he should doubtless be called the seat of wisdom; occurrence and fulfilment direct his soul with experience. This is also the faithful bride who keeps every new and old fruit for the beloved, so that she can say to anyone with restrained cheerfulness, as if on behalf of her family:
+<cit>
+<quote>
+<lg>
+<l>We have ripe apples,</l>
+<l>tender chestnuts, and plenty of pressed cheeses.</l>
+</lg>
+</quote>
+<bibl>
+<author>Virgil</author>
+<title>Eclogues</title>
+<biblScope>1.80–81</biblScope>
+</bibl>
+</cit>
+Indeed, the delights of the countryside always enhance the appetite, so long as discipline is not shut out.</p>
+<p>And so, since I was now not so much restored in these for a longish time as roused to other things, I stretched out the study of my mind and eyes to more distant and deeper things. Then I, an inquisitive onlooker, enter a wonder for the whole world indeed, as if the tabernacle of the covenant or Solomon’s temple; and behold, I have seen and felt his work and effort, which he considers in Proverbs: <cit><quote>I myself am present in learned thoughts</quote><bibl>
+<title>Prov.</title> <biblScope>8.12</biblScope>
+</bibl></cit>, <cit>
+<quote>and my delights are with the children of men.</quote>
+<bibl>
+<title>Prov.</title> <biblScope>8.31</biblScope>
+</bibl></cit> There, it seemed to me that I saw either Bezalel the son of Uri, son of Hur – to whom God had given in his heart that he should make <cit><quote>every work in the house of the Lord</quote>
+<bibl>
+<title>1 Kings</title>
+<biblScope>7.51</biblScope>
+</bibl>
+<bibl>
+<title>2 Chron.</title>
+<biblScope>4.22</biblScope>
+</bibl>
+</cit>, who arranged curtains, who wove wall hangings, who mixed colours, who hung up clasps and curtain rings, carved cherubim, gilded the Ark, set up the mercy-seat, laid out the table, and set out the shewbread – or Hiram of Tyre, full of all wisdom and learning, making works in the house of the Lord entirely from wood and precious stones and gold. For bronze and <cit>
+<quote>silver was not considered as anything in those days.</quote>
+<bibl>
+<title>2 Chron.</title>
+<biblScope>9.20</biblScope>
+</bibl></cit></p>
+<p>Does not our Alexander similarly arrange history in curtains, allegories in wall hangings, tropological interpretations in colours, questions and solutions in clasps and curtain rings, the fullness of knowledge in cherubim, anagogy in the ark, religion in the mercy-seat, and full refreshment at the table with loaves of bread? On which it is said, <cit><quote>You have prepared a table before me against them that trouble me.</quote><bibl>
+<title>Ps.</title>
+<biblScope>22.5</biblScope>
+</bibl></cit> Moreover, all solid things are in the work of the temple that Hiram makes from wood and precious stones, and they all glow with the gold of wisdom. Hence, by my judgement the title of the book will worthily be called <title>The Golden Alexandrine</title> by the example of its natural construction. It is thus called from the city in which it was perhaps first found, or from the author who found it and the gold that he received. This our Alexandrine, indeed, is both better and more worthy by such a name, both from the author who built it and the construction that it contains. For he has not only received gold, but is entirely clothed in gold, and by the better one, in which <cit>
+<quote>the soul is more than food, and the body more than clothing.</quote>
+<bibl>
+<title>Luke</title>
+<biblScope>12.23</biblScope>
+</bibl>
+</cit></p>
+<p>This is my pronouncement on the work and its craftsman. You will have seen whether it is good and clear. My mind suggests to me in faithful testimony not to wander in words. I hope these are pleasing to you; if not, let me know first what displeases. Farewell, most beloved.</p>
+</div>
+</body>
+</text>
+<text xml:id="walter-of-mileto-to-roger-noreys">
+<front>
+<div type="introduction">
+<head>Walter of Mileto to Roger Noreys</head>
+<p>Walter’s autograph: Canterbury, Cathedral Library, Lit. B. 13, leaf inserted after fol. 67.</p>
+</div>
+</front>
+<body>
+<div type="edition" xml:lang="la">
+<p source="#C">
+<lb source="#C"/>Dilecto sibi in <name ref="https://wikidata.org/wiki/Q302">cristo</name> et amico karissimo. <name>R.</name> capellano archiepiscopi. suus <name ref="https://wikidata.org/wiki/Q60800793">W. de <name>Melida</name></name>. Salutem et se ipsum. Mitto uobis finem 
+<lb source="#C"/>sermonis illius qui sic incipit. <cit><quote>Tu exurgens misereberis <name>syon</name>.</quote><bibl><title>Ps.</title> <biblScope>101.14</biblScope></bibl></cit> Rogo etiam uos quatinus notetis in quadam cedula 
+<lb source="#C"/>omnium sermonum principia quos habetis penes uos et mittatis michi per primum nuntium quem inuenire poteritis. Inue<lb break="no"/>ni enim postquam recessistis a me sicut uoluntas dei fuit quosdam sermones magistri <name ref="https://wikidata.org/wiki/Q1974885">Alex’</name> <del rend="erasure"><gap reason="illegible" quantity="20" unit="character"/>
+<lb source="#C"/>ut illi quos non habetis <gap reason="illegible" quantity="15" unit="character"/> scriberetur.</del> ubi continentur alii eius sermones 
+<lb source="#C"/>quos penes uos non habetis. et quia memoriter non retineo omnes 
+<lb source="#C"/>quos penes uos habetis <subst><del rend="altered">principia omnium</del><add place="inline">omnium principia</add></subst><!-- use TEI transpose? --> michi mittite. 
+<lb source="#C"/>ut sic sermones illos quos non habetis scribere faciam. Valete.
+</p>
+</div>
+<div type="translation">
+<p><name ref="https://wikidata.org/wiki/Q60800793">W. of <name>Mileto</name></name>, to his beloved in <name ref="https://wikidata.org/wiki/Q302">Christ</name> and friend, the most dear <name>R.</name>, chaplain to the archbishop, greetings and himself. I am sending you the end of the sermon beginning, <cit><quote>Thou shalt arise, and have mercy upon <name>Sion</name>.</quote><bibl><title>Ps.</title> <biblScope>101.14</biblScope></bibl></cit> I also ask you to mark on some sheet the beginnings of all the sermons that you have in your possession and send them to me by the first messenger you can find. For I found after you left me, as if it happened by the will of God, some sermons of master <name ref="https://wikidata.org/wiki/Q1974885">Alexander</name> where other of his sermons are contained that you do not have in your possession; and because I do not accurately remember all those which you already have, send me the beginnings of them all, that I may thus have written those sermons which you do not have. Farewell.</p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>
