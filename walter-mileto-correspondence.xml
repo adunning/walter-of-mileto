@@ -393,7 +393,7 @@ Indeed, the delights of the countryside always enhance the appetite, so long as 
 </front>
 <body>
 <div type="edition" xml:lang="la">
-<p source="#C">
+<p>
 <lb source="#C"/>Dilecto sibi in <name ref="https://wikidata.org/wiki/Q302">cristo</name> et amico karissimo. <name>R.</name> capellano archiepiscopi. suus <name ref="https://wikidata.org/wiki/Q60800793">W. de <name>Melida</name></name>. Salutem et se ipsum. Mitto uobis finem 
 <lb source="#C"/>sermonis illius qui sic incipit. <cit><quote>Tu exurgens misereberis <name>syon</name>.</quote><bibl><title>Ps.</title> <biblScope>101.14</biblScope></bibl></cit> Rogo etiam uos quatinus notetis in quadam cedula 
 <lb source="#C"/>omnium sermonum principia quos habetis penes uos et mittatis michi per primum nuntium quem inuenire poteritis. Inue<lb break="no"/>ni enim postquam recessistis a me sicut uoluntas dei fuit quosdam sermones magistri <name ref="https://wikidata.org/wiki/Q1974885">Alex’</name> <del rend="erasure"><gap reason="illegible" quantity="20" unit="character"/>
