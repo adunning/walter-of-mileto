@@ -203,7 +203,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lb source="#P"/>salutem piam. et perpetuam in domino <app><lem wit="#L">felicitatem</lem><rdg wit="#P">feliciter</rdg></app>.</p>
 <p>Cum de bonis omnibus bene
 <lb source="#P"/>sapere bonorum mentibus bene affectis sit <app><lem wit="#P">officiosum</lem><rdg wit="#L">offitium</rdg></app> debitum. hiis
-<lb source="#P"/>tamen quos et noticia caros et amor intimos exhibet⸵ <app><lem wit="#P">precipuus</lem><rdg wit="#L">pre<del>s</del>cipuus</rdg></app>
+<lb source="#P"/>tamen quos et noticia caros et amor intimos exhibet⸵ <app><lem wit="#P">precipuus</lem><rdg wit="#L">pre<del rend="expunct">s</del>cipuus</rdg></app>
 <lb source="#P"/>debetur honor et in bene gestis predicacio meritorum. et in bonis
 suc<lb break="no" source="#P"/>cessibus extollencia laudum. Hinc <app><lem wit="#P">ergo</lem><rdg wit="#L">ego</rdg></app> quota pars amicorum.
 predican<lb break="no" source="#P"/>di uiri et magni amici magistri <name ref="https://wikidata.org/wiki/Q1974885">alexandri</name> titulos extollere
@@ -214,7 +214,7 @@ predican<lb break="no" source="#P"/>di uiri et magni amici magistri <name ref="h
 <biblScope unit="line">139</biblScope>
 </bibl></cit> in partu emittere dici
 <lb source="#P"/>possum. Adeo maius est quod sencio⸵ quam quod ore <app><lem wit="#P">depromere</lem><rdg wit="#L">depremere</rdg></app> <app><lem wit="#L">ualeam</lem><rdg wit="#P"/></app>. Sed quoniam
-ta<lb break="no" source="#P"/>lis nature <app><lem/><rdg wit="#L"><del>michi</del></rdg></app> natiuus <app><lem wit="#P">color inoleuit</lem><wit wit="#L">calor ideo lenit</wit></app> ut <app><lem wit="#P">fidium</lem><rdg wit="#L">fiduum</rdg></app> que <app><lem wit="#P"/><rdg wit="#L">in</rdg></app> instrumentis
+ta<lb break="no" source="#P"/>lis nature <app><lem/><rdg wit="#L"><del rend="expunct">michi</del></rdg></app> natiuus <app><lem wit="#P">color inoleuit</lem><wit wit="#L">calor ideo lenit</wit></app> ut <app><lem wit="#P">fidium</lem><rdg wit="#L">fiduum</rdg></app> que <app><lem wit="#P"/><rdg wit="#L">in</rdg></app> instrumentis
 <lb source="#P"/>extense sunt consuetudinem sequar. que quolibet casu si tanguntur
 <lb source="#P"/>silere non possunt. Ego michi tacere non possum. quin uel mecum animo meo
 <lb source="#P"/>satisfaciam. <app><lem wit="#P">Vestram</lem><rdg wit="#L">uestra</rdg></app> uero bonitatem mei consilii participem esse
@@ -233,7 +233,7 @@ uberta<lb break="no" source="#P"/>te comedant <quote>butirum</quote>. nec <quote
 <p>Hinc quasi porticum
 <lb source="#P"/><name ref="https://wikidata.org/wiki/Q37085">salomonis</name> ingressus. dum transmissas quondam scolasticas <app><rdg wit="#P"><del rend="expunct">i</del></rdg></app>
 <lb source="#P"/>picturas intueor quasi per amena <app><lem wit="#P">uirecta</lem><rdg wit="#L">iniecta</rdg></app> iuuentutis oblite.
-<lb source="#P"/>florum <app><lem wit="#P"/><rdg wit="#L"><del>ardores</del></rdg>
+<lb source="#P"/>florum <app><lem wit="#P"/><rdg wit="#L"><del rend="strikethrough">ardores</del></rdg>
 </app> odores quos in tali uiro emarcuisse putaueram⸵
 uehemen<lb break="no" source="#P"/>ter admiratus sum. Sed laudanda est felicis memorie cella. que
 <lb source="#P"/>tot et tantas et tam uarias apotecharum gazas comprehendit.
@@ -311,7 +311,7 @@ statu<lb break="no" source="#P"/>eret. <app><lem wit="#P">mensam sterneret</lem>
 di<lb break="no" source="#P"/>cetur. <title>aurea <app><lem wit="#P">alexandrina</lem><rdg wit="#L">alexandria</rdg></app></title>. exemplo cuiusdam phisice confectionis. que
 <lb source="#P"/>sic uocatur ex ciuitate forsitan in qua primum inuenta est. uel
 <lb source="#P"/>ex <app><lem wit="#P">auctore</lem><rdg wit="#L">auctoritate</rdg></app> qui eam inuenit. et ex auro quod <app><lem wit="#P">recepit</lem><rdg wit="#L">recipit</rdg></app>. Ista uero
-<lb source="#P"/>nostra <name ref="https://wikidata.org/wiki/Q87 https://wikidata.org/wiki/Q1974885">alexandrina</name> et <app><lem wit="#P">melior</lem><rdg wit="#L">me<del>d</del>lior</rdg></app> est et dignior <app><lem wit="#P"/><rdg wit="#L">est</rdg></app> nomine tali. tum au<lb break="no" source="#P"/>ctore qui condidit tum confectione <cb source="#L" n="b"/><app><lem wit="#P">quam</lem><rdg wit="#L">quem</rdg></app> continet. Non enim solummodo aurum
+<lb source="#P"/>nostra <name ref="https://wikidata.org/wiki/Q87 https://wikidata.org/wiki/Q1974885">alexandrina</name> et <app><lem wit="#P">melior</lem><rdg wit="#L">me<del rend="expunct">d</del>lior</rdg></app> est et dignior <app><lem wit="#P"/><rdg wit="#L">est</rdg></app> nomine tali. tum au<lb break="no" source="#P"/>ctore qui condidit tum confectione <cb source="#L" n="b"/><app><lem wit="#P">quam</lem><rdg wit="#L">quem</rdg></app> continet. Non enim solummodo aurum
 <lb source="#P"/>recipit⸵ sed et auro tota uestitur.<cit>
 <note>cf. <bibl><title>Ps.</title> <biblScope>44.10</biblScope></bibl></note>
 </cit> et eo <app><lem wit="#L">meliore</lem><rdg wit="#P">melior</rdg></app>⸵ quo <cit><quote>anima plus est
